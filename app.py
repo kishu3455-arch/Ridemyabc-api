@@ -4,8 +4,8 @@ from supabase import create_client
 app = Flask(__name__)
 
 # EE 2 LINES LO MATRAM SUPABASE NUNCHI PASTE CHEY
-url = "PASTE-YOUR-FULL-SUPABASE-URL-HERE"
-key = "PASTE-YOUR-FULL-ANON-KEY-HERE"
+url = "https://gairuvgaqonaequXXXXXX.supabase.co"  # Full URLp
+key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdhaXJ1dmdhcW9uYWVxdSIsInJvbGUiOiJhbm9uIiwiaWF0IjoxNzE0NTAwODk4LCJleHAiOjIwMzAwNzY4OTh9.XXXXXXXXXXXXXXXX"  # Full key
 
 supabase = create_client(url, key)
 
